@@ -1,1 +1,177 @@
-<h1>Hola portafolio</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- navbar-->
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">Inicio</a></li>
+            <li class="link"><a href="#">Proyectos</a></li>
+            <li class="link"><a href="#">Acerca</a></li>
+            <li class="link"><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- inicio-->
+    <section class="home-section active">
+        <h1 class="hero-heading">Hola, yo soy <br>Ramiro</h1>
+        <img src="img/home.jpg" class="home-img" alt="">
+    </section>
+
+    <!-- Seccion de proyectos-->
+    <section class="project-section">
+        <h1 class="project-heading"><span>Algunos</span> <span>de</span>  <span>mis</span><span>proyectos</span></h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="img/funeraria.jpg" class="project-img" alt="project-img">
+                <div class="project-content">
+                    <h1 class="proyect-title"> Esquela</h1>
+                    <p class="project-info">
+                        Este proyecto consiste de un sistema para la captura de datos pertenecientes a personas que han muerto, donde se cotiza un precio para realizar los procesos funerarios (velación, cremación); es un listado de las personas que se velaran en la funeraria, se muestra en orden descendente y se eliminan del sistema las personas que pasaron los 7 días de velación.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button  class="project-btn live"><a href="https://funeraleshylopez.com/obituario/esquela/">En vivo</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/novumx.jpg" class="project-img" alt="project-img">
+                <div class="project-content">
+                    <h1 class="proyect-title"> Sistema de NovuMx Puebla</h1>
+                    <p class="project-info">
+                        Sistema núcleo para la gestión de los programas desarrollados, alojados y de mantenimiento que realiza la empresa, se gestionan las altas y bajas de los nuevos programas, ingresos y egresos, genera reportes, envía correos a los clientes para recordarles de la renovación de alojamiento o para algún pago adeudado.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn live"><a href="https://reports.novumx.net/sistema/">En vivo</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/menudesplegable.png" class="project-img" alt="project-img">
+                <div class="project-content">
+                    <h1 class="proyect-title"> Dashboard dinámico</h1>
+                    <p class="project-info">
+                        Consiste de un menú lateral o Dashboard vertical estático que es autoajustable al tamaño de los dispositivos 
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="https://github.com/RammyLA/Ayudas-para-el-front-end/tree/main/Menu%20vertical%20html%20y%20css%201">Repositorio Github</a> </button>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="project-card">
+                <img src="img/peliculas.png" class="project-img" alt="project-img">
+                <div class="project-content">
+                    <h1 class="proyect-title">Cartelera de peliculas</h1>
+                    <p class="project-info">
+                        Menu de peliculas, responsivo, capaz de buscar por medio de un slider la pelicula de su seleccion.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="https://github.com/RammyLA/carteleradepeliculas">Repositorio Github</a> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion acerca de-->
+    <section class="about-section">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="img/home.jpg" class="about-img" alt="">
+                <button class="download-cv-btn"><a href="CV.pdf">Descargar CV</a> </button>
+            </div>
+            <p class="about-info">Mi nombre es Ramiro Lechuga, soy licenciado en ingeniería en tecnologías de la información, curse la carrera en la Universidad Politécnica de Puebla, he desempeñado roles como front end, back end, full stack, tester; llevado desde el proceso de obtención de requerimientos, diseño, testeo y puesta en producción.</p>
+        </div>
+
+        <!-- Seccion de habilidades-->
+        <div class="skill-section">
+            <h1 class="heading">Habilidades</h1>
+            <div class="skill-container">
+                <div class="skill-card">
+                    <img src="img/icon-html.png" class="skill-img" alt="">
+                    <div class="skill-level">90%</div>
+                    <h1 class="skill-name">HTML</h1>
+                    <p class="skill-info"> </p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/icon-css.png" class="skill-img" alt="">
+                    <div class="skill-level">90%</div>
+                    <h1 class="skill-name">CSS</h1>
+                    <p class="skill-info"> </p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/icon-javascript.png" class="skill-img" alt="">
+                    <div class="skill-level">70%</div>
+                    <h1 class="skill-name">JS</h1>
+                    <p class="skill-info"> </p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/nodejs.png" class="skill-img" alt="">
+                    <div class="skill-level">70%</div>
+                    <h1 class="skill-name">Node.js</h1>
+                    <p class="skill-info"> </p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/icon-react.png" class="skill-img" alt="">
+                    <div class="skill-level">50%</div>
+                    <h1 class="skill-name">React.js</h1>
+                    <p class="skill-info"> </p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/icon-bootstrap.png" class="skill-img" alt="">
+                    <div class="skill-level">90%</div>
+                    <h1 class="skill-name">Bootstrap</h1>
+                    <p class="skill-info"> </p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/icon-figma.png" class="skill-img" alt="">
+                    <div class="skill-level">75%</div>
+                    <h1 class="skill-name">Figma</h1>
+                    <p class="skill-info"> </p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/icon-mysql.png" class="skill-img" alt="">
+                    <div class="skill-level">90%</div>
+                    <h1 class="skill-name">MySQL</h1>
+                    <p class="skill-info"> </p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/icon-sass.png" class="skill-img" alt="">
+                    <div class="skill-level">75%</div>
+                    <h1 class="skill-name">Sass</h1>
+                    <p class="skill-info"> </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion de contacto-->
+    <section class="contact-section">
+        <form class="contact-form">
+            <a class="boton-correo">ramiroascencion@gmail.com</a>
+            <a class="boton-instagram" href="https://www.instagram.com/rammy_lml/">Instagram</a>
+            <a class="boton-whatsapp" aria-label="WhatsApp" href="https://wa.me/2226763467">WhatsApp</a>
+           <a class="boton-git" href="https://github.com/RammyLA/">Git hub</a>
+        </form>
+
+        <!-- Mapa-->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30165.77701859862!2d-98.32956574437867!3d19.075951082626997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc8a16b13cfb1%3A0x2825dd848e53ec4a!2sCholula%2C%20Pue.!5e0!3m2!1ses!2smx!4v1670620864727!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
